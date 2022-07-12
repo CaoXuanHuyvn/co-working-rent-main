@@ -1,0 +1,314 @@
+*, ul {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header .nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100vw;
+  height: 75px;
+  padding: 0 113px;
+  box-shadow: 8px 1px 5px rgba(136, 119, 136, 0.4666666667);
+}
+header .nav-list {
+  height: 75px;
+}
+header .nav-list-item {
+  height: 75px;
+  display: flex;
+  align-items: center;
+}
+header .nav-list-item-header {
+  list-style: none;
+  padding: 0 20px;
+}
+header .nav-list-item-header__menu {
+  font-family: "Roboto", sans-serif;
+  color: #10375C;
+  font-size: medium;
+  font-weight: 600;
+  text-decoration: none;
+}
+header .nav-auth__login {
+  color: #FF5722;
+  font-family: "Roboto", sans-serif;
+}
+header .nav-auth__login:hover {
+  color: white;
+  background-color: #FF5722;
+}
+header .nav-auth__signup {
+  background-color: #FF5722;
+  color: white;
+}
+header .nav-auth__signup:hover {
+  color: #FF5722;
+  background-color: white;
+}
+
+.introducing {
+  padding: 20px 0;
+}
+.introducing .first-text {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+.introducing .first-text__intro-sm {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.introducing .first-text__intro-sm-text {
+  font-family: "Roboto", sans-serif;
+  color: black;
+  padding-right: 10px;
+}
+.introducing .first-text__intro-sm-icon {
+  font-size: larger;
+  color: #FF5722;
+  transform: translatey(0.5px);
+  transition: 0.5s;
+}
+.introducing .first-text__intro-sm-icon:hover {
+  padding-left: 5px;
+  transition: 0.5s;
+}
+.introducing .first-text__intro-lg {
+  display: flex;
+  justify-content: space-between;
+}
+.introducing .first-text__intro-lg-capitalization {
+  width: 650px;
+  line-height: 60px;
+  color: #10375C;
+  font-family: "Port Lligat Sans", sans-serif;
+  font-size: 50px;
+  letter-spacing: 2px;
+}
+.introducing .first-text__intro-lg-capitalization span {
+  color: #FF5722;
+}
+.introducing .first-text__intro-lg-normal {
+  width: 350px;
+  line-height: 30px;
+  text-align: left;
+  font-size: 18px;
+  color: dimgrey;
+}
+
+.finding {
+  width: 100%;
+  height: -webkit-max-content;
+  height: -moz-max-content;
+  height: max-content;
+  padding: 20px 0;
+}
+.finding-form {
+  width: 100%;
+  height: -webkit-max-content;
+  height: -moz-max-content;
+  height: max-content;
+  display: flex;
+  justify-content: right;
+  position: relative;
+}
+.finding-form-select {
+  width: 350px;
+  height: 350px;
+  background-color: rgba(16, 55, 92, 0.9);
+  padding: 0 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  position: absolute;
+  top: 80px;
+  right: 700px;
+}
+.finding-form-select-intro {
+  color: white;
+  font-size: 25px;
+  font-family: "Times New Roman", Times, serif;
+}
+.finding-form-select-choose {
+  background-color: #10375C;
+  color: gray;
+  line-height: 15px;
+  padding: 0 2px;
+}
+.finding-form-select-choose select {
+  width: 100%;
+  color: white;
+  background-color: #10375C;
+  border: none;
+}
+.finding-form-select button {
+  background-color: #FF5722;
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  padding: 5px 0;
+  border: none;
+}
+.finding-form-image {
+  background-image: url(../img/dexus-office-space.jpg);
+  width: 70%;
+  height: 500px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: right;
+}
+
+.spaces {
+  width: 100%;
+  height: -webkit-max-content;
+  height: -moz-max-content;
+  height: max-content;
+}
+.spaces-text {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0;
+}
+.spaces-text-lg {
+  color: #10375C;
+  text-transform: capitalize;
+  font-size: 45px;
+  font-weight: bold;
+  font-family: "Merriweather", serif;
+  align-self: center;
+}
+.spaces-text-sm {
+  width: 500px;
+  align-self: center;
+  color: gray;
+  line-height: 130%;
+  font-family: "Mingzat", sans-serif;
+}
+.spaces-text-icon {
+  display: flex;
+  align-items: center;
+}
+.spaces-text-icon .icon-short {
+  color: gray;
+  font-size: 30px;
+  padding-right: 10px;
+}
+.spaces-text-icon .icon-long {
+  color: #FF5722;
+  font-size: 50px;
+}
+.spaces-img {
+  padding: 10px 0;
+  height: -webkit-max-content;
+  height: -moz-max-content;
+  height: max-content;
+  display: flex;
+  justify-content: space-between;
+}
+.spaces-img-1 {
+  width: 300px;
+  height: 400px;
+  background-image: url(../img/1.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+}
+.spaces-img-1__btn {
+  width: 50px;
+  height: 50px;
+  background-color: #FF5722;
+  display: flex;
+}
+.spaces-img-1__btn-icon {
+  color: white;
+  font-size: 20px;
+  margin: auto;
+}
+.spaces-img-2 {
+  position: relative;
+  width: 300px;
+  height: 450px;
+  background-color: #10375C;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.spaces-img-2-lg {
+  padding-bottom: 10px;
+  font-family: "Merriweather", serif;
+  font-size: 25px;
+  color: white;
+  text-transform: capitalize;
+  font-weight: lighter;
+}
+.spaces-img-2-sm {
+  width: 220px;
+  text-align: center;
+}
+.spaces-img-2__btn {
+  width: 250px;
+  height: 50px;
+  background-color: #FF5722;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+.spaces-img-2__btn p {
+  margin: auto 0px;
+}
+.spaces-img-2__btn-icon {
+  padding-left: 10px;
+  font-size: 20px;
+  padding-top: 5px;
+}
+.spaces-img-3 {
+  width: 300px;
+  height: 400px;
+  background-image: url(../img/1.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+}
+.spaces-img-3__btn {
+  width: 50px;
+  height: 50px;
+  background-color: #FF5722;
+  display: flex;
+}
+.spaces-img-3__btn-icon {
+  color: white;
+  font-size: 20px;
+  margin: auto;
+}
+.spaces-scroll {
+  background-color: wheat;
+  width: 100vw;
+  height: 10px;
+}
+
+.spread {
+  padding-top: 30px;
+}
+.spread-listed {
+  height: 600px;
+  background-color: #FF5722;
+}
+.spread-why {
+  height: 600px;
+  background-color: #10375C;
+}/*# sourceMappingURL=styles.css.map */
