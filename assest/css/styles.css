@@ -1,4 +1,4 @@
-*, ul {
+*, ul, div, p, a {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -304,11 +304,141 @@ header .nav-auth__signup:hover {
 .spread {
   padding-top: 30px;
 }
-.spread-listed {
-  height: 600px;
-  background-color: #FF5722;
+.spread-list {
+  height: 500px;
+  background-color: whitesmoke;
 }
-.spread-why {
-  height: 600px;
+.spread-list-card {
+  height: 100%;
+}
+.spread-list-card-left, .spread-list-card-right {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.spread-list-card-left .icon, .spread-list-card-right .icon {
+  padding-top: 15px;
+  padding-left: 15px;
+  font-size: 30px;
+  color: #10375C;
+}
+.spread-list-card-left .text-lg, .spread-list-card-right .text-lg {
+  font-size: 30px;
+  color: #10375C;
+}
+.spread-list-card-left .text-desc, .spread-list-card-right .text-desc {
+  color: gray;
+  font-size: 20px;
+}
+.spread-card {
+  height: 500px;
   background-color: #10375C;
+  color: white;
+}
+.spread-card-block {
+  height: 100%;
+  padding: 0 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.spread-card-block__title {
+  font-size: 20px;
+}
+.spread-card-block__desc {
+  font-size: 35px;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bolder;
+  line-height: 120%;
+  padding: 25px 0;
+}
+.spread-card-block__sub-desc {
+  font-size: 20px;
+}
+
+.our-facilities {
+  background-color: beige;
+  margin-top: 50px;
+}
+.our-facilities-text {
+  width: 450px;
+  margin-bottom: 30px;
+  margin-left: 20px;
+}
+.our-facilities-text__desc {
+  font-size: 20px;
+  color: #10375c;
+  font-family: "Roboto", sans-serif;
+  padding: 10px 0;
+}
+.our-facilities-text__title {
+  font-size: 30px;
+  color: #10375C;
+  font-family: "Merriweather", serif;
+}
+.our-facilities-perform__btn {
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+}
+.our-facilities-perform__btn-block, .our-facilities-perform__btn .shadow {
+  color: #10375C;
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  padding: 30px 0;
+}
+.our-facilities-perform__btn-block p, .our-facilities-perform__btn .shadow p {
+  margin-left: 20px;
+  font-weight: bold;
+}
+.our-facilities-perform__btn .shadow {
+  background-color: #FF5722;
+  color: white;
+}
+.our-facilities-perform__img {
+  background-image: url(../img/cfh.jpg);
+  height: 500px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+.frispes-gallery {
+  height: 500px;
+  margin-top: 40px;
+  background-color: whitesmoke;
+}
+.frispes-gallery-pic-first {
+  height: 400px;
+  background-image: url(../img/pic1.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.frispes-gallery-pic-second {
+  height: 500px;
+  background-image: url(../img/pic2.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.frispes-gallery-third {
+  height: 500px;
+}
+.frispes-gallery-third__text {
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: right;
+  margin-left: 15px;
+}
+.frispes-gallery-third__text-1-title-sm {
+  color: black;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+}
+.frispes-gallery-third__text-1-title-lg {
+  color: #10375C;
+  font-family: "Merriweather", serif;
+  font-size: 30px;
 }/*# sourceMappingURL=styles.css.map */
