@@ -1,6 +1,6 @@
 // box-shadow: 8px 1px 5px #8787;
 
-*, ul{
+*, ul, div, p, a{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -361,14 +361,181 @@ header{
 
 .spread{
   padding-top: 30px;
-  &-listed{
-    height: 600px;
-    background-color: #FF5722;
+  &-list{
+    height: 500px;
+    background-color: whitesmoke;
+
+    &-card{
+      height: 100%;
+
+      &-left, &-right{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        
+        .icon{
+          padding-top: 15px;
+          padding-left: 15px;
+          font-size: 30px;
+          color: #10375C;
+        }
+
+        .text-lg{
+          font-size: 30px;
+          color: #10375C;
+        }
+        .text-desc{
+          color: gray;
+          font-size: 20px;
+        }
+      }
+    }
   }
-  &-why{
-    height: 600px;
+  &-card{
+    height: 500px;
     background-color: #10375C;
+    color: white;
+    &-block{
+      height: 100%;
+      padding: 0 50px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      &__title{
+        font-size: 20px;
+      }
+
+      &__desc{
+        font-size: 35px;
+        font-family: 'Times New Roman', Times, serif;
+        font-weight: bolder;
+        line-height: 120%;
+        padding: 25px 0;
+        
+      }
+      
+      &__sub-desc{
+        font-size: 20px;
+
+      }
+    }
+    
   }
+}
+
+.our-facilities{
+  // height: 1000px;
+  background-color: beige;
+  margin-top:50px ;
+
+  &-text{
+    width: 450px;
+    margin-bottom: 30px;
+    margin-left: 20px;
+
+    &__desc{
+      font-size: 20px;
+      color: #10375c;
+      font-family: "Roboto", sans-serif;
+      padding: 10px 0;
+    }
+
+    &__title{
+      font-size: 30px;
+      color: #10375C;
+      font-family: 'Merriweather', serif;
+
+    }
+  }
+
+  &-perform{
+    &__btn{
+      height: 500px;
+
+      display: flex;
+      flex-direction: column;
+      // justify-content: space-evenly;
+
+      &-block, .shadow{
+        color: #10375C;
+        font-family: "Roboto", sans-serif;
+        font-size: 20px;
+        padding: 30px 0;
+
+        p{
+          margin-left: 20px;
+          font-weight: bold;
+        }
+      }
+
+      .shadow{
+        background-color: #FF5722;
+        color: white;
+        // box-shadow: 2px 1px 0 0 #FF5722;
+      }
+    }
+
+    &__img{
+      background-image: url(../img/cfh.jpg);
+      height: 500px;
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-position: right;
+    }
+  }
+}
+
+.frispes-gallery{
+  height: 500px;
+  margin-top: 40px ;
+  background-color: whitesmoke;
+
+  &-pic{
+
+    &-first{
+      height: 400px;
+      background-image: url(../img/pic1.jpg);
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-position: center;
+
+    }
+
+    &-second{
+      height: 500px;
+      background-image: url(../img/pic2.jpg);
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-position: center;
+    }
+  }
+
+  &-third{
+    height: 500px;
+
+    &__text{
+      height: 250px;
+      display: flex;
+      flex-direction: column;
+      justify-content: right;
+      margin-left: 15px;
+
+      &-1{
+        &-title-sm{
+          color: black;
+          font-family: "Roboto", sans-serif;
+          font-size: 16px;
+        }
+        &-title-lg{
+          color: #10375C;
+          font-family: 'Merriweather', serif;
+          font-size: 30px;
+        }
+      }
+    }
+
+  }
+
 }
 
 
