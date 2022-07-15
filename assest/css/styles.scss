@@ -486,55 +486,102 @@ header{
 }
 
 .frispes-gallery{
-  height: 500px;
+  height: 600px;
   margin-top: 40px ;
   background-color: whitesmoke;
 
   &-pic{
 
     &-first{
-      height: 400px;
+      height: 600px;
       background-image: url(../img/pic1.jpg);
-      background-size: contain;
+      background-size: cover;
       background-repeat: no-repeat;
-      background-position: center;
+      background-position: bottom;
 
     }
 
     &-second{
-      height: 500px;
+      height: 600px;
       background-image: url(../img/pic2.jpg);
-      background-size: contain;
+      background-size: cover;
       background-repeat: no-repeat;
       background-position: center;
     }
-  }
 
-  &-third{
-    height: 500px;
+    &-third{
+      height: 600px;
 
-    &__text{
-      height: 250px;
-      display: flex;
-      flex-direction: column;
-      justify-content: right;
-      margin-left: 15px;
-
-      &-1{
-        &-title-sm{
-          color: black;
-          font-family: "Roboto", sans-serif;
-          font-size: 16px;
-        }
-        &-title-lg{
-          color: #10375C;
-          font-family: 'Merriweather', serif;
-          font-size: 30px;
+      &__text{
+        height: 40%;
+        display: flex;
+        flex-direction: column;
+        justify-content: right;
+        margin-left: 15px;
+  
+        &-1{
+          width: 70%;
+          &-title-sm{
+            color: black;
+            font-family: "Roboto", sans-serif;
+            font-size: 20px;
+          }
+          &-title-lg{
+            color: #10375C;
+            font-family: 'Merriweather', serif;
+            font-size: 32px;
+            text-align: left;
+            margin: 10px 0;
+          }
+          &-icon{
+            display: flex;
+            align-items: center;
+            .icon-short{
+              color: gray;
+              font-size: 30px;
+              padding-right: 20px;
+            }
+      
+            .icon-long{
+              color: #FF5722;
+              font-size: 50px;
+            }
+          }
         }
       }
-    }
+      
+      &__pic{
+        height: 60%;
+        display: flex;
+        justify-content: space-between;
 
+
+        &-first{
+          height: 100%;
+          width: 48%;
+          background-image: url(../img/pic3.jpg);
+          background-repeat: no-repeat;
+          background-size: cover;
+          background-position: center;
+          // margin-right: 5px;
+          // background-color: #10375c;
+        }
+        &-second{
+          height: 100%;
+          width: 48%;
+          background-image: url(../img/pic4.jpg);
+          background-repeat: no-repeat;
+          background-size: cover;
+          background-position: center;
+          // margin-left: 5px;
+          // background-color: #FF5722;
+        }
+
+      }
+    }
   }
+
+
 
 }
 

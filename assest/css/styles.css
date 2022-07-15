@@ -404,41 +404,80 @@ header .nav-auth__signup:hover {
 }
 
 .frispes-gallery {
-  height: 500px;
+  height: 600px;
   margin-top: 40px;
   background-color: whitesmoke;
 }
 .frispes-gallery-pic-first {
-  height: 400px;
+  height: 600px;
   background-image: url(../img/pic1.jpg);
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: bottom;
 }
 .frispes-gallery-pic-second {
-  height: 500px;
+  height: 600px;
   background-image: url(../img/pic2.jpg);
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
 }
-.frispes-gallery-third {
-  height: 500px;
+.frispes-gallery-pic-third {
+  height: 600px;
 }
-.frispes-gallery-third__text {
-  height: 250px;
+.frispes-gallery-pic-third__text {
+  height: 40%;
   display: flex;
   flex-direction: column;
   justify-content: right;
   margin-left: 15px;
 }
-.frispes-gallery-third__text-1-title-sm {
+.frispes-gallery-pic-third__text-1 {
+  width: 70%;
+}
+.frispes-gallery-pic-third__text-1-title-sm {
   color: black;
   font-family: "Roboto", sans-serif;
-  font-size: 16px;
+  font-size: 20px;
 }
-.frispes-gallery-third__text-1-title-lg {
+.frispes-gallery-pic-third__text-1-title-lg {
   color: #10375C;
   font-family: "Merriweather", serif;
+  font-size: 32px;
+  text-align: left;
+  margin: 10px 0;
+}
+.frispes-gallery-pic-third__text-1-icon {
+  display: flex;
+  align-items: center;
+}
+.frispes-gallery-pic-third__text-1-icon .icon-short {
+  color: gray;
   font-size: 30px;
+  padding-right: 20px;
+}
+.frispes-gallery-pic-third__text-1-icon .icon-long {
+  color: #FF5722;
+  font-size: 50px;
+}
+.frispes-gallery-pic-third__pic {
+  height: 60%;
+  display: flex;
+  justify-content: space-between;
+}
+.frispes-gallery-pic-third__pic-first {
+  height: 100%;
+  width: 48%;
+  background-image: url(../img/pic3.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.frispes-gallery-pic-third__pic-second {
+  height: 100%;
+  width: 48%;
+  background-image: url(../img/pic4.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }/*# sourceMappingURL=styles.css.map */
