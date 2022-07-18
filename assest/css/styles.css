@@ -404,41 +404,298 @@ header .nav-auth__signup:hover {
 }
 
 .frispes-gallery {
-  height: 500px;
+  height: 600px;
   margin-top: 40px;
   background-color: whitesmoke;
 }
 .frispes-gallery-pic-first {
-  height: 400px;
+  height: 600px;
   background-image: url(../img/pic1.jpg);
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: bottom;
 }
 .frispes-gallery-pic-second {
-  height: 500px;
+  height: 600px;
   background-image: url(../img/pic2.jpg);
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
 }
-.frispes-gallery-third {
-  height: 500px;
+.frispes-gallery-pic-third {
+  height: 600px;
 }
-.frispes-gallery-third__text {
-  height: 250px;
+.frispes-gallery-pic-third__text {
+  height: 40%;
   display: flex;
   flex-direction: column;
   justify-content: right;
   margin-left: 15px;
 }
-.frispes-gallery-third__text-1-title-sm {
+.frispes-gallery-pic-third__text-1 {
+  width: 70%;
+}
+.frispes-gallery-pic-third__text-1-title-sm {
   color: black;
   font-family: "Roboto", sans-serif;
-  font-size: 16px;
+  font-size: 20px;
 }
-.frispes-gallery-third__text-1-title-lg {
+.frispes-gallery-pic-third__text-1-title-lg {
   color: #10375C;
   font-family: "Merriweather", serif;
+  font-size: 32px;
+  text-align: left;
+  margin: 10px 0;
+}
+.frispes-gallery-pic-third__text-1-icon {
+  display: flex;
+  align-items: center;
+}
+.frispes-gallery-pic-third__text-1-icon .icon-short {
+  color: gray;
   font-size: 30px;
+  padding-right: 20px;
+}
+.frispes-gallery-pic-third__text-1-icon .icon-long {
+  color: #FF5722;
+  font-size: 50px;
+}
+.frispes-gallery-pic-third__pic {
+  height: 60%;
+  display: flex;
+  justify-content: space-between;
+}
+.frispes-gallery-pic-third__pic-first {
+  height: 100%;
+  width: 48%;
+  background-image: url(../img/pic3.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.frispes-gallery-pic-third__pic-second {
+  height: 100%;
+  width: 48%;
+  background-image: url(../img/pic4.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.partner {
+  height: -webkit-max-content;
+  height: -moz-max-content;
+  height: max-content;
+  margin-top: 30px;
+  background-color: antiquewhite;
+}
+.partner__title {
+  text-align: center;
+  margin-bottom: 15px;
+}
+.partner__title-lg {
+  font-size: 35px;
+  font-family: "Merriweather", serif;
+  color: #10375C;
+  margin-bottom: 10px;
+}
+.partner__title-sm {
+  font-size: 16px;
+  color: gray;
+}
+.partner__logo {
+  height: 100px;
+}
+.partner__logo-google {
+  width: 90%;
+  height: 100%;
+  background-image: url(../img/Google.png);
+  background-repeat: no-repeat;
+  background-size: 70%;
+  background-position: center;
+}
+.partner__logo-tokopedia {
+  width: 90%;
+  height: 100%;
+  background-image: url(../img/tokopedia.png);
+  background-repeat: no-repeat;
+  background-size: 70%;
+  background-position: center;
+}
+.partner__logo-upwork {
+  width: 90%;
+  height: 100%;
+  background-image: url(../img/upwork.png);
+  background-repeat: no-repeat;
+  background-size: 70%;
+  background-position: center;
+}
+.partner__logo-microsoft {
+  width: 90%;
+  height: 100%;
+  background-image: url(../img/microsoft.png);
+  background-repeat: no-repeat;
+  background-size: 70%;
+  background-position: center;
+}
+.partner__logo-shopify {
+  width: 90%;
+  height: 100%;
+  background-image: url(../img/shopify.png);
+  background-repeat: no-repeat;
+  background-size: 70%;
+  background-position: center;
+}
+.partner__logo-stripe {
+  width: 90%;
+  height: 100%;
+  background-image: url(../img/stripe.png);
+  background-repeat: no-repeat;
+  background-size: 70%;
+  background-position: center;
+}
+
+.review {
+  margin-top: 30px;
+}
+.review__title-sm {
+  font-size: 20px;
+  color: gray;
+}
+.review__title-lg {
+  font-size: 35px;
+  color: #10375C;
+  font-family: "Merriweather", serif;
+  display: flex;
+  justify-content: space-between;
+}
+.review__title-lg .text-title {
+  width: 500px;
+}
+.review__title-lg-icons {
+  display: flex;
+  align-items: center;
+}
+.review__title-lg-icons .icon-short {
+  color: gray;
+  font-size: 30px;
+  padding-right: 20px;
+}
+.review__title-lg-icons .icon-long {
+  color: #FF5722;
+  font-size: 50px;
+}
+.review__comments {
+  display: flex;
+  justify-content: end;
+}
+.review__comments-block {
+  height: 400px;
+  background-color: #10375C;
+  background-size: 90%;
+  margin-left: 20px;
+}
+.review__comments-block-customer {
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.review__comments-block-customer-text {
+  color: white;
+  font-size: 16px;
+  height: 250px;
+  font-family: "Roboto", sans-serif;
+}
+.review__comments-block-customer-profile {
+  display: flex;
+  justify-items: baseline;
+}
+.review__comments-block-customer-profile .pic {
+  width: 50px;
+  height: 50px;
+  background-image: url(../img/people.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+  border-radius: 50%;
+  margin-right: 15px;
+  margin-left: 15px;
+}
+.review__comments-block-customer-profile .identity {
+  color: white;
+  font-family: "Roboto", sans-serif;
+}
+.review__comments-block-customer-profile .identity .use-name {
+  font-weight: bold;
+}
+
+.find-answer {
+  margin-top: 30px;
+}
+.find-answer__title {
+  text-align: center;
+  margin: auto;
+  width: 500px;
+  font-family: "Merriweather", serif;
+  font-weight: bold;
+  color: #10375C;
+  font-size: 32px;
+}
+.find-answer-block {
+  margin-top: 30px;
+  height: 300px;
+  position: relative;
+}
+.find-answer-block__question {
+  height: 200px;
+  background-color: white;
+  font-family: "Merriweather", serif;
+  font-size: 20px;
+  font-weight: lighter;
+  color: #FF5722;
+  box-shadow: 0 2px 40px 0 gray;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.find-answer-block__question-text {
+  text-align: center;
+}
+.find-answer-block__question-btn {
+  width: 50px;
+  height: 50px;
+  font-size: 20px;
+  background-color: #FF5722;
+  position: absolute;
+  bottom: -20px;
+  opacity: 0.9;
+  border: none;
+}
+.find-answer-block__question-btn .icon {
+  color: white;
+}
+.find-answer-block__question-btn .icon-center {
+  color: #FF5722;
+}
+.find-answer-block__question .center-btn {
+  background-color: white;
+  box-shadow: -2px 10px 40px 0 gray;
+}
+.find-answer-block .center {
+  background-color: #FF5722;
+  color: white;
+  box-shadow: none;
+  z-index: 1;
+}
+.find-answer-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #FF5722;
+}
+.find-answer-btn i {
+  margin-top: 5px;
+  padding-left: 10px;
 }/*# sourceMappingURL=styles.css.map */
