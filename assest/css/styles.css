@@ -671,6 +671,7 @@ header .nav-auth__signup:hover {
   position: absolute;
   bottom: -20px;
   opacity: 0.9;
+  border: none;
 }
 .find-answer-block__question-btn .icon {
   color: white;
@@ -687,4 +688,14 @@ header .nav-auth__signup:hover {
   color: white;
   box-shadow: none;
   z-index: 1;
+}
+.find-answer-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #FF5722;
+}
+.find-answer-btn i {
+  margin-top: 5px;
+  padding-left: 10px;
 }/*# sourceMappingURL=styles.css.map */
