@@ -585,4 +585,241 @@ header{
 
 }
 
+.partner{
+  height: max-content;
+  margin-top: 30px;
+  background-color: antiquewhite;
+
+  &__title{
+    text-align: center;
+    margin-bottom: 15px;
+    &-lg{
+      font-size: 35px;
+      font-family: 'Merriweather', serif;
+      color: #10375C;
+      margin-bottom: 10px;
+    }
+    &-sm{
+      font-size: 16px;
+      color: gray;
+    }
+  }
+
+  &__logo{
+    height: 100px;
+    &-google{
+      width: 90%;
+      height: 100%;
+      background-image: url(../img/Google.png);
+      background-repeat: no-repeat;
+      background-size: 70%;
+      background-position: center;
+    }
+    &-tokopedia{
+      width: 90%;
+      height: 100%;
+      background-image: url(../img/tokopedia.png);
+      background-repeat: no-repeat;
+      background-size: 70%;
+      background-position: center;
+    }
+    &-upwork{
+      width: 90%;
+      height: 100%;
+      background-image: url(../img/upwork.png);
+      background-repeat: no-repeat;
+      background-size: 70%;
+      background-position: center;
+    }
+    &-microsoft{
+      width: 90%;
+      height: 100%;
+      background-image: url(../img/microsoft.png);
+      background-repeat: no-repeat;
+      background-size: 70%;
+      background-position: center;
+    }
+    &-shopify{
+      width: 90%;
+      height: 100%;
+      background-image: url(../img/shopify.png);
+      background-repeat: no-repeat;
+      background-size: 70%;
+      background-position: center;
+    }
+    &-stripe{
+      width: 90%;
+      height: 100%;
+      background-image: url(../img/stripe.png);
+      background-repeat: no-repeat;
+      background-size: 70%;
+      background-position: center;
+    }
+  }
+}
+
+.review{
+  margin-top: 30px;
+
+  &__title{
+    // padding: 0 25px;
+    &-sm{
+      font-size: 20px;
+      color: gray;
+    }
+    &-lg{
+      font-size: 35px;
+      color: #10375C;
+      font-family: 'Merriweather', serif;
+      display: flex;
+      justify-content: space-between;
+
+      .text-title{
+        width: 500px;
+      }
+      &-icons{
+        display: flex;
+        align-items: center;
+        .icon-short{
+          color: gray;
+          font-size: 30px;
+          padding-right: 20px;
+        }
+  
+        .icon-long{
+          color: #FF5722;
+          font-size: 50px;
+        }
+      }
+
+    }
+
+  }
+  &__comments{
+    // float: right;
+    display: flex;
+    justify-content: end;
+
+    &-block{
+      // width: 90%;
+      height: 400px;
+      background-color: #10375C;
+      background-size: 90%;
+      margin-left: 20px;
+      &-customer{
+        height: 400px;
+        // margin: 20px 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        &-text{
+          color: white;
+          font-size: 16px;
+          height: 250px;
+          font-family: "Roboto", sans-serif;
+
+        }
+         &-profile{
+          display: flex;
+          justify-items: baseline;
+          .pic{
+              width: 50px;
+              height: 50px;
+              background-image: url(../img/people.jpg);
+              background-repeat: no-repeat;
+              background-position: center;
+              background-size: 100%;
+              border-radius: 50%;
+              margin-right: 15px;
+              margin-left: 15px;
+          }
+
+          .identity{
+            color: white;
+            font-family: "Roboto", sans-serif;
+
+
+            .use-name{
+              font-weight: bold;
+            }
+          }
+        }
+        
+      }
+
+    }
+  }
+}
+
+.find-answer{
+  margin-top: 30px;
+  // height: 500px;
+  &__title{
+    text-align: center;
+    margin: auto;
+    // te;
+    width: 500px;
+    font-family: 'Merriweather', serif;
+    font-weight: bold;
+    color: #10375C;
+    font-size: 32px;
+
+  }
+
+  &-block{
+    margin-top: 30px;
+    height: 300px;
+    position: relative;
+
+    &__question{
+      height: 200px;
+      background-color: white;
+      font-family: 'Merriweather', serif;
+      font-size: 20px;
+      font-weight: lighter;
+      color: #FF5722;
+      box-shadow: 0 2px 40px 0 gray;
+      // margin: 0 10px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      // position: relative;
+      &-text{
+        text-align: center;
+      }
+
+      &-btn{
+        width: 50px;
+        height: 50px;
+        font-size: 20px;
+        background-color: #FF5722;
+        position: absolute;
+        bottom: -20px;
+        opacity: 0.9;
+
+        .icon{
+          color: white;
+        }
+
+        .icon-center{
+          color: #FF5722;
+        }
+
+      }
+
+      .center-btn{
+        background-color: white;
+        box-shadow: -2px 10px 40px 0 gray;
+      }
+    }
+
+    .center{
+      background-color: #FF5722;
+      color: white;
+      box-shadow: none;
+      z-index: 1;
+    }
+  }
+}
 
