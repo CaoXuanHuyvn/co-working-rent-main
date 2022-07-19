@@ -698,4 +698,106 @@ header .nav-auth__signup:hover {
 .find-answer-btn i {
   margin-top: 5px;
   padding-left: 10px;
+}
+
+.news-title {
+  margin: 20px 0;
+  display: flex;
+  justify-content: space-between;
+}
+.news-title__text-lg {
+  color: #10375C;
+  font-family: "Merriweather", serif;
+  font-size: 32px;
+}
+.news-title__text-sm {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  color: #FF5722;
+  font-size: 16px;
+}
+.news-title__text-sm p {
+  padding-right: 10px;
+}
+.news-title__text-sm i {
+  margin-top: 3px;
+}
+.news-post-line1-content__pic, .news-post-line2-content__pic {
+  position: relative;
+  height: 300px;
+  margin: 5px 0;
+}
+.news-post-line1-content__pic img, .news-post-line2-content__pic img {
+  height: 300px;
+}
+.news-post-line1-content__pic-text, .news-post-line2-content__pic-text {
+  width: 100%;
+  height: 100px;
+  background-color: rgba(255, 255, 255, 0.9);
+  z-index: 3;
+  position: absolute;
+  bottom: 0;
+  display: flex;
+}
+.news-post-line1-content__pic-text p, .news-post-line2-content__pic-text p {
+  font-family: "Merriweather", serif;
+  font-size: 16px;
+  font-weight: lighter;
+  align-self: center;
+  margin-left: 10px;
+}
+
+.banner {
+  height: 400px;
+  background-color: rgba(16, 55, 92, 0.95);
+  display: flex;
+  justify-content: space-around;
+}
+.banner-card {
+  width: 30%;
+  color: white;
+  margin: auto 0;
+  font-family: "Roboto", sans-serif;
+}
+.banner-card__title-lg {
+  padding: 10px 0;
+  font-family: "Merriweather", serif;
+  font-size: 32px;
+}
+.banner-card__btn {
+  margin-top: 10px;
+  width: 80%;
+  background-color: #FF5722;
+}
+.banner-pic {
+  width: 30%;
+  height: 100%;
+}
+.banner-pic img {
+  height: 100%;
+}
+
+header .header {
+  height: 300px;
+  background-color: #10375c;
+}
+header .header-content {
+  color: white;
+}
+header .header-content .title {
+  display: flex;
+  height: 100px;
+  color: gray;
+  align-items: flex-end;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+header .header-content-about-title p {
+  color: white;
+  font-size: 32px;
+  font-family: "Merriweather", serif;
+}
+header .header-content ul li {
+  line-height: 200%;
 }/*# sourceMappingURL=styles.css.map */
