@@ -1,0 +1,225 @@
+header{
+    .nav{
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     width: 100vw;
+     height: 75px;
+     padding: 0 113px;
+     box-shadow: 8px 1px 5px #8787;
+   
+     &-brand{
+     }
+   
+     &-list{
+       height: 75px;
+   
+       &-item{
+       height: 75px;
+       display: flex;
+       align-items: center;
+   
+         &-header{
+           list-style: none;
+           padding: 0 20px;
+           
+           &__menu{
+             font-family: "Roboto", sans-serif;
+             color:#10375C ;
+             font-size: medium;
+             font-weight: 600;
+             text-decoration: none;
+           }
+         }
+       }
+     }
+
+     &-user{
+      
+      &__icon{
+        color: #10375C;
+        font-size: larger;
+        position: relative;
+      }
+      
+      &:hover &{
+        
+        &__icon{
+        opacity: .1;
+        }
+      }
+
+      &__list-user{
+        display: block;
+        width: 100px;
+        background-color: white;
+        position: absolute;
+        opacity: 0;
+
+        &-content{
+          padding: 10px 10px;
+          border: 0.5px solid black;
+
+          a{
+            color: black;
+            list-style-type: none;
+            text-decoration: none;
+            // text-transform: ;
+          }
+        }
+      }
+     }
+    }
+   }
+
+   main{
+    .vertification{
+      // line-height: 200%;
+      
+      &-title{
+        p{
+          color: #9724A8;
+          text-transform: capitalize;
+          font-size: 20px;
+          padding: 10px 16px;
+        }
+      }
+
+      &-card{
+        background-color: #ccc;
+
+        .strong{
+          font-weight: bolder;
+        }
+        .italic{
+          font-style: italic;
+        }
+        .color{
+          color: #9724A8;
+        }
+
+        &__content{
+          padding: 10px 16px;
+
+          &-warning{}
+
+          &-perform{
+            line-height: 150%;
+            &-title{
+              text-decoration: underline;
+              padding: 0;
+              margin-top: 16px;
+            }
+
+            &-content{
+              list-style: outside;
+              padding-left: 20px;
+
+              .sub-list-item{
+                list-style: square;
+                padding-left: 30px;
+              }
+            }
+          }
+        }
+      }
+      &-form{
+        margin-top: 30px;
+
+        border: 0.1px solid rgba($color: #ccc, $alpha: 0.7);
+        &__title-text{
+          color: #9724a8;
+          font-size: 20px;
+        }
+
+        &-content{
+          padding-left: 10px;
+          background-color: #ccc;
+          padding-bottom: 10px;
+
+          .line1, .line2, .line3, .line4, .line5, .line6, .line7, .line8{
+            padding: 0 15px;
+
+            .submit-button{
+              border: 1px solid black;
+              border-radius: 0 15px 0 0;
+            }
+          }
+        }
+      }
+
+    }
+
+    .banner{
+      margin-top: 40px;
+      height: 400px;
+      background-color: rgba($color: #10375C, $alpha: 0.95);
+      display: flex;
+      justify-content: space-around;
+    
+      &-card{
+        width: 30%;
+        color: white;
+        margin: auto 0;
+        font-family: "Roboto", sans-serif;
+    
+    
+        &__title-lg{
+          padding: 10px 0;
+          font-family: 'Merriweather', serif;
+          font-size: 32px;
+        }
+    
+        &__btn{
+          margin-top: 10px;
+          width: 80%;
+          background-color: #FF5722;
+        }
+      }
+    
+      &-pic{
+        width: 30%;
+        height: 100%;
+    
+        img{
+          height: 100%;
+        }
+      }
+    }
+   }
+   footer{
+    .header{
+      height: 300px;
+      background-color: rgba($color: #10375C, $alpha: 1);
+      &-content{
+        color: white;
+  
+        .title{
+          display: flex;
+          height: 100px;
+          color: gray;
+          align-items: flex-end;
+          font-size: 20px;
+          margin-bottom: 10px;
+        }
+  
+        &-about{
+          &-title{
+            p{
+              color: white;
+              font-size: 32px;
+              font-family: 'Merriweather', serif;
+            }
+          }
+        }
+  
+        ul{
+          li{
+            line-height: 200%;
+          }
+        }
+  
+  
+      }
+    }
+  }

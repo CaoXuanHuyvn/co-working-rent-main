@@ -778,14 +778,14 @@ header .nav-auth__signup:hover {
   height: 100%;
 }
 
-header .header {
+footer .header {
   height: 300px;
   background-color: #10375c;
 }
-header .header-content {
+footer .header-content {
   color: white;
 }
-header .header-content .title {
+footer .header-content .title {
   display: flex;
   height: 100px;
   color: gray;
@@ -793,11 +793,11 @@ header .header-content .title {
   font-size: 20px;
   margin-bottom: 10px;
 }
-header .header-content-about-title p {
+footer .header-content-about-title p {
   color: white;
   font-size: 32px;
   font-family: "Merriweather", serif;
 }
-header .header-content ul li {
+footer .header-content ul li {
   line-height: 200%;
 }/*# sourceMappingURL=styles.css.map */
